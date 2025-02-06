@@ -16,7 +16,7 @@ echo "Hello, this was added by a bash script." >welcome.txt
 cat file1 file2 file3 >summary.txt                   # Redirecting into summary.txt
 head summary.txt                                     # Displaying first 10 lines
 tail summary.txt                                     # Displaying last 10 lines
-grep "file2" summary.txt >../logs/search_results.txt # Redirecting search results
+grep "File2" summary.txt >../logs/search_results.txt # Redirecting search results
 cp file1 ..                                          # Copying file1 outside of docs dir
 mv ../file1 ./file1.bak                              # Moving file1 back to docs as a backup file
 
